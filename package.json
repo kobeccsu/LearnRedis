@@ -1,0 +1,28 @@
+{
+  "name": "learnredis",
+  "version": "1.0.0",
+  "description": "just learn",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobeccsu/LearnRedis.git"
+  },
+  "author": "Lei Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kobeccsu/LearnRedis/issues"
+  },
+  "homepage": "https://github.com/kobeccsu/LearnRedis#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "ioredis": "^4.17.3",
+    "nodemon": "^2.0.4"
+  }
+}
